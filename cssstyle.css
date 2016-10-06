@@ -5,10 +5,9 @@ h1 {
 body {
   color: #000000
 }
-@import compass
 
-// These styles are not pertinent to the demo. They are
-// merely aesthetic.
+
+
 body
   background: lightgray
 section
@@ -32,35 +31,27 @@ code
   vertical-align: baseline
     
 
-// Default div styling
+
 div
-  // These styles are for aesthetics only.
   font-size: 18px
   line-height: 1.3em
   vertical-align: top
   margin-bottom: 1em
   border-radius: 0.5em
   padding: 1em
-  // This insures everything up to the border
-  // is included in the width
   box-sizing: border-box
-  // The default width of my divs
   width: 45%
   
-// Inline-block aligned elements
+
 .ib
-  // These are aesthetic styles. Red = bad
   background: salmon
   border: solid red 1px
-  // Overrides default display (which would be block)
   display: inline-block
     
-// Float aligned elements
+
 .float
-  // These are aesthetic styles. Red = bad
   background: lightgreen
   border: solid green 1px
-  // Floated for positioning
   float: left
     
 // These elements are intended to be half the width of their 
